@@ -16,16 +16,23 @@ include(hunter_report_broken_package)
 #   tar.gz 436M (don't have qtbase/configure.exe)
 #   7z 297M
 #   tar.xz 305M (don't have qtbase/configure.exe)
+#
+# Qt 5.9.1
+#   zip 714M   
+#
 
 hunter_add_version(
     PACKAGE_NAME
     Qt
     VERSION
-    "5.5.0"
+    #"5.5.0"
+    "5.9.1"
     URL
-    "http://download.qt.io/official_releases/qt/5.5/5.5.0/single/qt-everywhere-opensource-src-5.5.0.7z"
+    #"http://download.qt.io/official_releases/qt/5.5/5.5.0/single/qt-everywhere-opensource-src-5.5.0.7z"
+    http://download.qt.io/official_releases/qt/5.9/5.9.1/single/qt-everywhere-opensource-src-5.9.1.zip
     SHA1
-    df2c0a7a20f219f921246b260df086600515955d
+    #df2c0a7a20f219f921246b260df086600515955d
+    bdac47fdcf6dd502a123eb403bb4260542f91034
 )
 
 hunter_add_version(
