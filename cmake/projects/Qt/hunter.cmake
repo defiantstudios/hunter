@@ -28,7 +28,7 @@ hunter_add_version(
     "5.9.1"
     URL
     "https://download.qt.io/official_releases/qt/5.9/5.9.1/single/qt-everywhere-opensource-src-5.9.1.zip"
-    SHAA1
+    SHA1
     bdac47fdcf6dd502a123eb403bb4260542f91034
 )
 
